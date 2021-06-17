@@ -193,7 +193,7 @@
                 Mietwohnungen.
                 <v-btn
                   color="primary my-4"
-                  href="mailto:kontakt@sichere-zuflucht.de"
+                  href="mailto:unterkunft@sichere-zuflucht.de"
                 >
                   Ich biete meine Unterkunft an
                 </v-btn>

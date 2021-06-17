@@ -75,6 +75,9 @@
         <v-btn v-for="(item, i) in footer" :key="i" :to="item.to" text plain
           ><p v-text="item.title"></p
         ></v-btn>
+        <v-btn href="mailto:kontakt@sichere-zuflucht.de" text plain
+          ><p>Kontakt</p></v-btn
+        >
       </div>
     </v-row>
     <v-row
@@ -87,7 +90,10 @@
       "
     >
       <div class="d-flex flex-wrap justify-center">
-        <v-btn icon href="https://www.facebook.com/" target="_blank"
+        <v-btn
+          icon
+          href="https://www.facebook.com/sichere.zuflucht"
+          target="_blank"
           ><v-icon>mdi-facebook</v-icon>
         </v-btn>
         <v-btn icon href="https://twitter.com/SichereZuflucht" target="_blank"
@@ -98,9 +104,6 @@
           href="https://www.instagram.com/sicherezuflucht/"
           target="_blank"
           ><v-icon>mdi-instagram</v-icon>
-        </v-btn>
-        <v-btn icon href="https://www.youtube.com/" target="_blank"
-          ><v-icon>mdi-youtube</v-icon>
         </v-btn>
       </div>
       <span class="mt-0 caption"
@@ -116,28 +119,12 @@ export default {
     return {
       footer: [
         {
+          title: "Startseite",
+          to: "/",
+        },
+        {
           title: "Impressum",
-          to: "/",
-        },
-        {
-          title: "Datenschutz",
-          to: "/",
-        },
-        {
-          title: "AGB",
-          to: "/",
-        },
-        {
-          title: "Kontakt",
-          to: "/",
-        },
-        {
-          title: "FAQ",
-          to: "/",
-        },
-        {
-          title: "Hilfe",
-          to: "/",
+          to: "/impressum",
         },
       ],
     };
