@@ -1,9 +1,13 @@
 import colors from "vuetify/es5/util/colors";
-const base = "/frontend";
+const base = "/workinprogress";
 export default {
+  target: "static",
+  router: {
+    base
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - workinprogress",
+    titleTemplate: "Sichere Zuflucht",
     title: "Sichere Zuflucht",
     htmlAttrs: {
       lang: "de"
@@ -15,13 +19,13 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Wir schaffen Zufluchtsorte – für Gewalt erleidende Frauen und Kinder in der Corona-Krise. Sichere-Zuflucht ist ein Plattform, auf der leerstehende Wohnungen, Apartments oder Mietwohnungen den Frauenhäusern als Zuflucht angeboten werden können"
+          "Wir bieten Frauen und ihren Kindern aus Gewaltbeziehungen Hilfe in Form einer persönlichen Online-Beratung und eine sichere Zuflucht an."
       },
       { property: "og:title", content: "Sichere Zuflucht" },
       {
         property: "og:description",
         content:
-          "Wir schaffen Zufluchtsorte – für Gewalt erleidende Frauen und Kinder in der Corona-Krise. Sichere-Zuflucht ist ein Plattform, auf der leerstehende Wohnungen, Apartments oder Mietwohnungen den Frauenhäusern als Zuflucht angeboten werden können"
+          "Wir bieten Frauen und ihren Kindern aus Gewaltbeziehungen Hilfe in Form einer persönlichen Online-Beratung und eine sichere Zuflucht an."
       },
       {
         property: "og:image",
@@ -35,7 +39,7 @@ export default {
       {
         property: "twitter:description",
         content:
-          "Wir schaffen Zufluchtsorte – für Gewalt erleidende Frauen und Kinder in der Corona-Krise. Sichere-Zuflucht ist ein Plattform, auf der leerstehende Wohnungen, Apartments oder Mietwohnungen den Frauenhäusern als Zuflucht angeboten werden können"
+          "Wir bieten Frauen und ihren Kindern aus Gewaltbeziehungen Hilfe in Form einer persönlichen Online-Beratung und eine sichere Zuflucht an."
       },
       {
         property: "twitter:title",

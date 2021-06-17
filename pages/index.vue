@@ -215,12 +215,6 @@ export default {
     css() {
       if (process.client) {
         const width = window.innerWidth;
-
-        // ... mobile { ... styles }
-        // ... desktop { ... styles }
-
-        // ... if width is less than 700, return mobile
-        // ... if width greater than 700, return desktop
         return width;
       } else {
         return null;
