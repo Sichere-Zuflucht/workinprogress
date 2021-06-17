@@ -1,5 +1,5 @@
 import colors from "vuetify/es5/util/colors";
-const base = "/workinprogress";
+const base = "/";
 export default {
   target: "static",
   router: {
