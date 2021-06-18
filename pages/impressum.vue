@@ -22,26 +22,12 @@
       >
       <v-card width="350" class="mt-4 mx-1" style="flex: auto"
         ><v-card-text>
-          <h2 class="text-h2 secondary--text py-2">
-            Hosting und Content Delivery Networks (CDN)
-          </h2>
+          <h2 class="text-h2 secondary--text py-2">Hosting</h2>
           <p>
             Github - <a href="https://github.com">https://github.com</a>
             <br />
             Diese Website wird von einem externen Dienstleister gehostet
-            (Github). Die auf dieser Website erhobenen personenbezogenen Daten
-            werden auf den Servern des Hosters Servern gespeichert. Dies können
-            IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten,
-            Vertragsdaten, Kontaktinformationen, Namen, Website Zugriffe und
-            andere Daten, die von einer Website generiert werden. Die Nutzung
-            des Hosters erfolgt zum Zwecke der Erfüllung des Vertrages mit
-            unseren potentiellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b
-            DSGVO) und im Interesse einer sicheren, schnellen und effizienten
-            Bereitstellung unseres Onlineangebotes durch einen professionellen
-            Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Unser Hoster wird Ihre Daten
-            nur verarbeiten Daten nur in dem Umfang verarbeiten, der zur
-            Erfüllung seiner Leistungspflichten erforderlich ist und wird unsere
-            Weisungen in Bezug auf diese Daten befolgen.
+            (Github).
           </p>
         </v-card-text></v-card
       >

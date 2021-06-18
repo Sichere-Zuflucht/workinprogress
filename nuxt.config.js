@@ -53,7 +53,7 @@ export default {
       { content: "summary_large_image", name: "twitter:card" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: base + "/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "favicon.ico" },
       { rel: "preconnect", href: "https://fonts.gstatic.com" },
       {
         href:
