@@ -20,11 +20,23 @@
             </p>
             <v-row
               ><v-col cols="4" class="d-flex flex-column align-center"
-                ><b>SSL-</b>zertifiziert</v-col
+                ><v-img
+                  class="mb-2"
+                  width="30"
+                  contain
+                  src="ssl-zertifiziert.svg"
+                /><b>SSL-</b>zertifiziert</v-col
               ><v-col cols="4" class="d-flex flex-column align-center"
-                ><b>Serverstandort</b>Deutschland</v-col
+                ><v-img
+                  class="mb-2"
+                  width="30"
+                  contain
+                  src="serverstandort-deutschland.svg"
+                /><b>Serverstandort</b>Deutschland</v-col
               ><v-col cols="4" class="d-flex flex-column align-center"
-                ><b>DSGVO-</b>konform</v-col
+                ><v-img class="mb-2" width="50" contain src="dsgvo.svg" /><b
+                  >DSGVO-</b
+                >konform</v-col
               ></v-row
             ></v-card-text
           ></v-card
@@ -107,7 +119,7 @@
         </v-btn>
       </div>
       <span class="mt-0 caption"
-        >&copy; {{ new Date().getFullYear() }} Sichere Zuflucht gGmbH</span
+        >&copy; {{ new Date().getFullYear() }} Sichere Zuflucht</span
       >
     </v-row>
   </v-footer>
