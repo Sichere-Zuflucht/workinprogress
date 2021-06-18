@@ -22,14 +22,11 @@
         <v-carousel
           hide-delimiters
           :continuous="false"
-          height="auto"
+          height="500"
           class="mb-8"
         >
-          <v-carousel-item v-for="i in 10" :key="i"
-            ><v-img
-              :lazy-src="'pitch/' + i + '.png'"
-              :src="'pitch/' + i + '.png'"
-              contain
+          <v-carousel-item v-for="i in 7" :key="i"
+            ><v-img height="500" :src="'pitch/' + i + '.jpg'" contain
           /></v-carousel-item>
         </v-carousel>
         <Offerings :disabled="true" />
@@ -54,7 +51,11 @@
         Und noch vieles mehr...
       </p>
     </v-container>
-    <v-slide-group show-arrows class="pa-1 mb-16">
+    <v-slide-group
+      show-arrows
+      class="pa-1 mb-16 mx-auto"
+      style="max-width: 650px"
+    >
       <v-slide-item v-for="n in 3" :key="n">
         <v-hover v-slot="{ hover }">
           <v-card class="ma-1" width="200">
@@ -142,7 +143,7 @@
                 und nun anderen helfen möchten.
                 <v-btn
                   color="primary my-4"
-                  href="mailto:kontakt@sichere-zuflucht.de"
+                  href="mailto:beratung@sichere-zuflucht.de"
                 >
                   Anmeldung für Berater*innen
                 </v-btn>
