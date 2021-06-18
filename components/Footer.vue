@@ -84,9 +84,9 @@
         class="mt-4 mb-8"
       />
       <div class="d-flex flex-wrap flex-column flex-sm-row justify-center">
-        <v-btn v-for="(item, i) in footer" :key="i" :to="item.to" text plain
-          ><p v-text="item.title"></p
-        ></v-btn>
+        <v-btn v-for="(item, i) in footer" :key="i" :to="item.to" text plain>{{
+          item.title
+        }}</v-btn>
         <v-btn href="mailto:kontakt@sichere-zuflucht.de" text plain
           ><p>Kontakt</p></v-btn
         >
@@ -137,6 +137,14 @@ export default {
         {
           title: "Impressum",
           to: "/impressum",
+        },
+        {
+          title: "Datenschutz",
+          to: "/datenschutz",
+        },
+        {
+          title: "AGB",
+          to: "/agb",
         },
       ],
     };

@@ -26,8 +26,10 @@
             </v-expand-transition>
           </v-img>
 
-          <v-card-title class="text-h3 secondary--text font-weight-bold mb-2"
-            >Beratung und Hilfe
+          <v-card-title
+            ><h3 class="text-h3 primary--text font-weight-bold mb-2">
+              Beratung und Hilfe
+            </h3>
           </v-card-title>
 
           <v-card-subtitle>
@@ -64,8 +66,10 @@
             </v-expand-transition></v-img
           >
 
-          <v-card-title class="text-h3 secondary--text font-weight-bold mb-2"
-            >Schnelle Unterkunft
+          <v-card-title
+            ><h3 class="text-h3 primary--text font-weight-bold mb-2">
+              Schnelle Unterkunft
+            </h3>
           </v-card-title>
 
           <v-card-subtitle>
