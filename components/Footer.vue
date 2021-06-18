@@ -88,7 +88,7 @@
           item.title
         }}</v-btn>
         <v-btn href="mailto:kontakt@sichere-zuflucht.de" text plain
-          ><p>Kontakt</p></v-btn
+          >Kontakt</v-btn
         >
       </div>
     </v-row>

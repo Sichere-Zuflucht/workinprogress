@@ -105,7 +105,7 @@
     </v-slide-group> -->
     <v-divider />
     <v-container>
-      <v-row style="max-width: 700px" class="mx-auto pt-8">
+      <v-row style="max-width: 1000px" class="mx-auto pt-8">
         <v-col cols="12" md="4">
           <v-hover v-slot="{ hover }">
             <v-card class="mx-auto" max-width="320">
