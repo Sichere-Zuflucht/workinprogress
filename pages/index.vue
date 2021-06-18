@@ -23,7 +23,7 @@
         </p>
 
         <v-carousel :continuous="false" :height="height + 40" class="mb-8">
-          <v-carousel-item v-for="i in 7" :key="i"
+          <v-carousel-item v-for="i in 8" :key="i"
             ><v-img :height="height" :src="'pitch/' + i + '.jpg'" contain
           /></v-carousel-item>
         </v-carousel>
@@ -184,7 +184,7 @@
 
               <v-card-title
                 ><h3 class="text-h3 primary--text font-weight-bold mb-2">
-                  Werden Sie teil von Sichere Zuflucht
+                  Werden Sie Teil von Sichere Zuflucht
                 </h3>
               </v-card-title>
 
