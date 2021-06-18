@@ -14,6 +14,7 @@ $btn-font-weight: 600;
 $btn-letter-spacing: 0;
 $btn-text-transform: normal !default;
 $heading-font-family: "Exo" !default;
+$highlight-font-family: "Yellowtail", "Exo", sans-serif;
 $headings: (
   "h1": (
     "size": 1.8rem,
@@ -68,7 +69,7 @@ $headings: (
     "weight": normal,
     "line-height": 1.75rem,
     "letter-spacing": 0.009375em,
-    "font-family": "Yellowtail",
+    "font-family": $highlight-font-family,
     "text-transform": false
   ),
   "subtitle-2": (
