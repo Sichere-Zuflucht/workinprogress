@@ -23,7 +23,7 @@
         </p>
 
         <v-carousel :continuous="false" :height="height + 40" class="mb-8">
-          <v-carousel-item v-for="i in 8" :key="i"
+          <v-carousel-item v-for="i in 10" :key="i"
             ><v-img :height="height" :src="'pitch/' + i + '.jpg'" contain
           /></v-carousel-item>
         </v-carousel>
